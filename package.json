@@ -1,7 +1,7 @@
 {
-  "name": "eth-keyring-controller",
+  "name": "@dexon-foundation/dexon-keyring-controller",
   "version": "4.0.0",
-  "description": "A module for managing various keyrings of Ethereum accounts, encrypting them, and using them.",
+  "description": "A module for managing various keyrings of DEXON accounts, encrypting them, and using them.",
   "main": "index.js",
   "scripts": {
     "test": "mocha --require test/helper.js test/index.js"
@@ -11,12 +11,12 @@
     "url": "git+ssh://git@github.com/MetaMask/KeyringController.git"
   },
   "keywords": [
-    "ethereum",
-    "metamask",
+    "DEXON",
+    "DekuSan",
     "accounts",
     "keys"
   ],
-  "author": "Dan Finlay <dan@danfinlay.com>",
+  "author": "Hsuan Lee",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/MetaMask/KeyringController/issues"
